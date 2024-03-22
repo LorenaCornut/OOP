@@ -1,4 +1,4 @@
-class Math
+class Math  ///asta este o librarie
 {
 public:
     static int Add(int, int);
@@ -16,3 +16,4 @@ public:
 ///Static member functions in C++ are class-level functions that are associated with the class itself rather than with 
 ///individual instances (objects) of the class. They are declared using the static keyword, and we can call such a function 
 /// with a class name without the need to create an object.
+/// pot fi apelate chiar daca clasa nu este instantiala(nu am declarat Math a dar putem face Math::Add(2,3))

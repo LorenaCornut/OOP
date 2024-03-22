@@ -9,7 +9,7 @@ Canvas::Canvas(int width, int height) ///constructorul
 	this->height = height;
 	///creem matricea pe care o initializam cu ' '
 	this->matrix = new char* [height];///alocam dinamic memorie pt o matrice de pointeri char
-	///Creeaz? o matrice în care fiecare element este un pointer c?tre un tablou de caractere alocat? dinamic.
+	///Creeaza o matrice în care fiecare element este un pointer catre un tablou de caractere alocat? dinamic.
 	for (int i = 0; i < height; ++i) ///parcurgem fiecare rand al matricei
 	{
 		this->matrix[i] = new char[width]; ///alocam dinamic memorie pt randul i
