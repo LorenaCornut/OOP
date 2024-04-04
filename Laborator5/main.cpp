@@ -15,10 +15,10 @@ int main()
     }
     n1.Print();
     n2.Print();
-    n3.Print();///MEU
+    ///n3.Print();///MEU
     n1 = (n2 + n3 - n1) + n1; // after this n1 will be in base 16
 
-    n1.Print();///MEU
+    ///n1.Print();///MEU
 
     n1.SwitchBase(2);
     n1.Print();
